@@ -15,7 +15,12 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+x = int(input())
+#minutes = int (input())
+if x < 1000 and x > 99:
+    print("Да")
+else:
+    print("Нет")
 ```
 
 ---
