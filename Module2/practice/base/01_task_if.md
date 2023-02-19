@@ -16,6 +16,11 @@
 
 ```python
 # TODO: you code here...
+x = int(input())
+if x % 5 == 0 or x % 3 == 0:
+    print("Да")
+else:
+    print("Нет")
 ```
 
 ---
