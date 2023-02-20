@@ -17,7 +17,10 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+# Shershakov Grigoriy
+t = int(input())
+tF = (t * 9/5) + 32
+print(tF)
 ```
 
 ---
