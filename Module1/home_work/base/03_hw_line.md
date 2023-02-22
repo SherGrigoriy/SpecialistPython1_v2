@@ -18,7 +18,10 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+# Shershakov Grigoriy
+speed, time = int(input()), int(input())
+way = (speed / time) % 109
+print(int(way))
 ```
 
 ---
