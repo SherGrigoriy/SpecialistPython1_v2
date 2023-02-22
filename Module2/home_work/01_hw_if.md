@@ -18,7 +18,12 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+# Shershakov Grigoriy
+m, n, k  = int(input()), int(input()), int(input())
+if k <= m * n and (k % n == 0 or k % m == 0):
+    print("Да")
+else:
+    print("Нет")
 ```
 
 ---
