@@ -18,7 +18,10 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+#Shershakov Grigoriy
+h, a, b = int(input("введите h: ")), int(input("введите a: ")), int(input("введите b: ")),
+day = h / (a - b)
+print(int(day))
 ```
 
 ---
