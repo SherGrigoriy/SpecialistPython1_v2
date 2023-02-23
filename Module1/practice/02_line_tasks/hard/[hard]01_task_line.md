@@ -18,7 +18,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+#Shershakov Grigoriy
+h, a, b = int(input("введите высоту h: ")), int(input("введите путь за день a: ")), int(input("введите откат за ночь b: "))
+
+rest_of_day = h - a
+rise_per_day = a - b
+day = (rest_of_day - 1) / rise_per_day + 1 + 1
+print(int(day))
 ```
 
 ---
