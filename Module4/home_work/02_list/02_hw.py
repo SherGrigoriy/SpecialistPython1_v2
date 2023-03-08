@@ -4,5 +4,8 @@
 # для получения случайного числа используйте функцию randint() модуля random
 import random
 numbers = []
-# print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
-# TODO: your code here
+qty = 201
+
+for number in range(qty):
+    numbers.insert(0, random.randint(-100, 100))
+print(numbers)
