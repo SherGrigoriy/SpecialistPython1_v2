@@ -5,3 +5,13 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+some_list = [2, -5, 8, 9, -25, 25, 4, 100, 81, 0, 1]
+new_list = []
+for number in some_list:
+    if number > 0:
+        sqrt_num = number ** 0.5
+        if int(sqrt_num) == sqrt_num:
+            new_list.insert(0, int(sqrt_num))
+            print(int(sqrt_num))
+new_list.reverse()
+print(new_list)
