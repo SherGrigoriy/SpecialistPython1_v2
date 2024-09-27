@@ -16,7 +16,24 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+# Shershakov Grigoriy
+first_number, last_number = int(input("Введите первое число: ")), int(input("Введите последнее число: "))
+input_number = first_number
+line_perfect = ""
+qty_divisors = 0
+while input_number <= last_number:
+    divisor = 0
+    summ_divisors = 0
+    while divisor < input_number:
+        divisor += 1
+        if input_number % divisor == 0 and divisor != input_number:
+            summ_divisors += divisor
+    if summ_divisors == input_number:
+        qty_divisors += 1
+        line_perfect += " " + str(input_number)
+    input_number += 1
+print("Количество чисел:", qty_divisors)
+print("Числа:", line_perfect)
 ```
 
 ---
